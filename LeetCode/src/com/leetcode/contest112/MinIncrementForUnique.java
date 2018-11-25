@@ -16,6 +16,8 @@ public class MinIncrementForUnique {
                 i--;
             }
             
+            
+            
         }
         
         return moveTimes;

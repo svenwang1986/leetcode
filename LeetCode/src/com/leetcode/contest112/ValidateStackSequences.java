@@ -18,6 +18,7 @@ public class ValidateStackSequences {
 
 
     }
+
     public static boolean validateStackSequences(int[] pushed, int[] popped) {
 
         //用一个栈模拟操作，

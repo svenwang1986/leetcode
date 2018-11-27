@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
     if (method === 'GET' && url.pathname === '/') {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/plain');
+        res.setHeader('Access-Control-Allow-Origin', '*');
         res.end('Hello World');
         return;
     }
@@ -21,6 +22,7 @@ const server = http.createServer((req, res) => {
     if (method === 'GET' && url.pathname === '/api/user') {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Access-Control-Allow-Origin', '*');
         res.end(JSON.stringify({
             code: 0,
             msg: '',

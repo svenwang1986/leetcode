@@ -45,9 +45,17 @@ var pickout = function(index,cards){
 	return cards.splice(index,1);
 };
 
-var pickin = function(number,cards){
+var pickin = function(card,cards){
 	
-	for(var ){}
+	for(var i=cards.length-1;i>0;i++){
+
+		if(card.number >= cards[i].number){
+
+			cards.splice(i+1,0,card);
+
+		}
+
+	}
 
 };
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.leetcode.algorithm;
+=======
+package com.sven.algorithm;
+>>>>>>> branch 'master' of https://github.com/svenwang1986/leetcode.git
 
 public class LongestCommonPrefix {
 

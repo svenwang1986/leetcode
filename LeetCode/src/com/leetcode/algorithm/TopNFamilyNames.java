@@ -1,4 +1,4 @@
-package com.sven.algorithm;
+package com.leetcode.algorithm;
 
 import java.util.*;
 
